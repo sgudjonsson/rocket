@@ -48,7 +48,7 @@ function createWindow() {
   mainWindow = new BrowserWindow({width: 800, height: 600, resizable: false, 'skip-taskbar': true});
 
   // and load the index.html of the app.
-  mainWindow.loadUrl('file://' + __dirname + '/index.html');
+  mainWindow.loadUrl('file://' + __dirname + '/app/index.html');
 
   // Emitted before the window is closed.
   mainWindow.on('close', onWindowClose);
